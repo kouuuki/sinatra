@@ -14,5 +14,6 @@ get '/' do
 end
 
 get '/tweet/new' do
+  @title = "こんにちは"
   erb :index
 end

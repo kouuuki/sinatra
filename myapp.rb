@@ -14,5 +14,5 @@ get '/' do
 end
 
 get '/tweet/new' do
-  'hello'
+  erb :index
 end
